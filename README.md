@@ -114,12 +114,6 @@ A user-space TCP/IP stack in Rust on top of a TUN device, to see how the network
 
 ## ⚙️ Stack
 
-<div align="center">
-
-*the tools I break things with, and the ones I build them with*
-
-</div>
-
 <table>
 <tr>
 <td align="right" valign="middle" width="200"><b>🔐 Application security</b></td>
@@ -203,9 +197,5 @@ A user-space TCP/IP stack in Rust on top of a TUN device, to see how the network
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/alexandra-seredkina/alexandra-seredkina/main/assets/footer.jpeg" alt="Sunrise over the neon city: the character waves from a rooftop with her black cat in her lap" width="100%">
-
-*Think like an attacker. Build like a defender.*
-
-**Let's make your app harder to break**
 
 </div>
