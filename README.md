@@ -116,70 +116,87 @@ A user-space TCP/IP stack in Rust on top of a TUN device, to see how the network
 
 <div align="center">
 
-**🔐 Application security**<br>
-<img src="https://img.shields.io/badge/OWASP_Top_10-161B22?style=for-the-badge&logo=owasp&logoColor=FF5C8A&labelColor=0d1117" alt="OWASP Top 10">
-<img src="https://img.shields.io/badge/Burp_Suite-161B22?style=for-the-badge&logo=burpsuite&logoColor=FF5C8A&labelColor=0d1117" alt="Burp Suite">
-<img src="https://img.shields.io/badge/Semgrep-161B22?style=for-the-badge&logo=semgrep&logoColor=FF5C8A&labelColor=0d1117" alt="Semgrep">
-<img src="https://img.shields.io/badge/CodeQL-161B22?style=for-the-badge&logo=github&logoColor=FF5C8A&labelColor=0d1117" alt="CodeQL">
-<img src="https://img.shields.io/badge/Gitleaks-161B22?style=for-the-badge&logoColor=FF5C8A&labelColor=0d1117" alt="Gitleaks">
-<img src="https://img.shields.io/badge/JWT-161B22?style=for-the-badge&logo=jsonwebtokens&logoColor=FF5C8A&labelColor=0d1117" alt="JWT">
-<img src="https://img.shields.io/badge/OAuth-161B22?style=for-the-badge&logoColor=FF5C8A&labelColor=0d1117" alt="OAuth">
-<img src="https://img.shields.io/badge/Postman-161B22?style=for-the-badge&logo=postman&logoColor=FF5C8A&labelColor=0d1117" alt="Postman">
-<br>
-
-**🔏 Cryptography**<br>
-<img src="https://img.shields.io/badge/libsodium-161B22?style=for-the-badge&logoColor=FF5C8A&labelColor=0d1117" alt="libsodium">
-<img src="https://img.shields.io/badge/Argon2id-161B22?style=for-the-badge&logoColor=FF5C8A&labelColor=0d1117" alt="Argon2id">
-<img src="https://img.shields.io/badge/X25519-161B22?style=for-the-badge&logoColor=FF5C8A&labelColor=0d1117" alt="X25519">
-<img src="https://img.shields.io/badge/XChaCha20--Poly1305-161B22?style=for-the-badge&logoColor=FF5C8A&labelColor=0d1117" alt="XChaCha20-Poly1305">
-<img src="https://img.shields.io/badge/WebCrypto-161B22?style=for-the-badge&logoColor=FF5C8A&labelColor=0d1117" alt="WebCrypto">
-<br>
-
-**🗡 Offensive security**<br>
-<img src="https://img.shields.io/badge/Kali_Linux-161B22?style=for-the-badge&logo=kalilinux&logoColor=FF5C8A&labelColor=0d1117" alt="Kali Linux">
-<img src="https://img.shields.io/badge/Metasploit-161B22?style=for-the-badge&logo=metasploit&logoColor=FF5C8A&labelColor=0d1117" alt="Metasploit">
-<img src="https://img.shields.io/badge/Wireshark-161B22?style=for-the-badge&logo=wireshark&logoColor=FF5C8A&labelColor=0d1117" alt="Wireshark">
-<img src="https://img.shields.io/badge/Nmap-161B22?style=for-the-badge&logo=nmap&logoColor=FF5C8A&labelColor=0d1117" alt="Nmap">
-<img src="https://img.shields.io/badge/Active_Directory-161B22?style=for-the-badge&logoColor=FF5C8A&labelColor=0d1117" alt="Active Directory">
-<br>
-
-**🚀 DevSecOps & infra**<br>
-<img src="https://img.shields.io/badge/GitHub_Actions-161B22?style=for-the-badge&logo=githubactions&logoColor=FF5C8A&labelColor=0d1117" alt="GitHub Actions">
-<img src="https://img.shields.io/badge/GitLab_CI-161B22?style=for-the-badge&logo=gitlab&logoColor=FF5C8A&labelColor=0d1117" alt="GitLab CI">
-<img src="https://img.shields.io/badge/Dependabot-161B22?style=for-the-badge&logo=dependabot&logoColor=FF5C8A&labelColor=0d1117" alt="Dependabot">
-<img src="https://img.shields.io/badge/Docker-161B22?style=for-the-badge&logo=docker&logoColor=FF5C8A&labelColor=0d1117" alt="Docker">
-<img src="https://img.shields.io/badge/Nginx-161B22?style=for-the-badge&logo=nginx&logoColor=FF5C8A&labelColor=0d1117" alt="Nginx">
-<img src="https://img.shields.io/badge/Postfix-161B22?style=for-the-badge&logoColor=FF5C8A&labelColor=0d1117" alt="Postfix">
-<img src="https://img.shields.io/badge/Linux-161B22?style=for-the-badge&logo=linux&logoColor=FF5C8A&labelColor=0d1117" alt="Linux">
-<img src="https://img.shields.io/badge/Bash-161B22?style=for-the-badge&logo=gnubash&logoColor=FF5C8A&labelColor=0d1117" alt="Bash">
-<img src="https://img.shields.io/badge/Let%27s_Encrypt-161B22?style=for-the-badge&logo=letsencrypt&logoColor=FF5C8A&labelColor=0d1117" alt="Let's Encrypt">
-<br>
-
-**💻 Backend & frontend**<br>
-<img src="https://img.shields.io/badge/TypeScript-161B22?style=for-the-badge&logo=typescript&logoColor=FF5C8A&labelColor=0d1117" alt="TypeScript">
-<img src="https://img.shields.io/badge/React-161B22?style=for-the-badge&logo=react&logoColor=FF5C8A&labelColor=0d1117" alt="React">
-<img src="https://img.shields.io/badge/Next.js-161B22?style=for-the-badge&logo=nextdotjs&logoColor=FF5C8A&labelColor=0d1117" alt="Next.js">
-<img src="https://img.shields.io/badge/NestJS-161B22?style=for-the-badge&logo=nestjs&logoColor=FF5C8A&labelColor=0d1117" alt="NestJS">
-<img src="https://img.shields.io/badge/Node.js-161B22?style=for-the-badge&logo=nodedotjs&logoColor=FF5C8A&labelColor=0d1117" alt="Node.js">
-<img src="https://img.shields.io/badge/PostgreSQL-161B22?style=for-the-badge&logo=postgresql&logoColor=FF5C8A&labelColor=0d1117" alt="PostgreSQL">
-<img src="https://img.shields.io/badge/Prisma-161B22?style=for-the-badge&logo=prisma&logoColor=FF5C8A&labelColor=0d1117" alt="Prisma">
-<img src="https://img.shields.io/badge/Zod-161B22?style=for-the-badge&logo=zod&logoColor=FF5C8A&labelColor=0d1117" alt="Zod">
-<img src="https://img.shields.io/badge/Tailwind-161B22?style=for-the-badge&logo=tailwindcss&logoColor=FF5C8A&labelColor=0d1117" alt="Tailwind">
-<img src="https://img.shields.io/badge/MDX-161B22?style=for-the-badge&logo=mdx&logoColor=FF5C8A&labelColor=0d1117" alt="MDX">
-<img src="https://img.shields.io/badge/Python-161B22?style=for-the-badge&logo=python&logoColor=FF5C8A&labelColor=0d1117" alt="Python">
-<img src="https://img.shields.io/badge/Rust-161B22?style=for-the-badge&logo=rust&logoColor=FF5C8A&labelColor=0d1117" alt="Rust">
-<br>
-
-**🧪 Testing & quality**<br>
-<img src="https://img.shields.io/badge/Vitest-161B22?style=for-the-badge&logo=vitest&logoColor=FF5C8A&labelColor=0d1117" alt="Vitest">
-<img src="https://img.shields.io/badge/Playwright-161B22?style=for-the-badge&logo=playwright&logoColor=FF5C8A&labelColor=0d1117" alt="Playwright">
-<img src="https://img.shields.io/badge/axe-161B22?style=for-the-badge&logoColor=FF5C8A&labelColor=0d1117" alt="axe">
-<img src="https://img.shields.io/badge/ESLint-161B22?style=for-the-badge&logo=eslint&logoColor=FF5C8A&labelColor=0d1117" alt="ESLint">
-<img src="https://img.shields.io/badge/Biome-161B22?style=for-the-badge&logo=biome&logoColor=FF5C8A&labelColor=0d1117" alt="Biome">
-<img src="https://img.shields.io/badge/oxlint-161B22?style=for-the-badge&logoColor=FF5C8A&labelColor=0d1117" alt="oxlint">
-<br>
+*the tools I break things with, and the ones I build them with*
 
 </div>
+
+<table>
+<tr>
+<td align="right" valign="middle" width="200"><b>🔐 Application security</b></td>
+<td valign="middle">
+<img src="https://img.shields.io/badge/OWASP_Top_10-0d1117?style=flat-square&logo=owasp&logoColor=FF5C8A" alt="OWASP Top 10">
+<img src="https://img.shields.io/badge/Burp_Suite-0d1117?style=flat-square&logo=burpsuite&logoColor=FF5C8A" alt="Burp Suite">
+<img src="https://img.shields.io/badge/Semgrep-0d1117?style=flat-square&logo=semgrep&logoColor=FF5C8A" alt="Semgrep">
+<img src="https://img.shields.io/badge/CodeQL-0d1117?style=flat-square&logo=github&logoColor=FF5C8A" alt="CodeQL">
+<img src="https://img.shields.io/badge/Gitleaks-0d1117?style=flat-square&logoColor=FF5C8A" alt="Gitleaks">
+<img src="https://img.shields.io/badge/JWT-0d1117?style=flat-square&logo=jsonwebtokens&logoColor=FF5C8A" alt="JWT">
+<img src="https://img.shields.io/badge/OAuth-0d1117?style=flat-square&logoColor=FF5C8A" alt="OAuth">
+<img src="https://img.shields.io/badge/Postman-0d1117?style=flat-square&logo=postman&logoColor=FF5C8A" alt="Postman">
+</td>
+</tr>
+<tr>
+<td align="right" valign="middle"><b>🔏 Cryptography</b></td>
+<td valign="middle">
+<img src="https://img.shields.io/badge/libsodium-0d1117?style=flat-square&logoColor=FF5C8A" alt="libsodium">
+<img src="https://img.shields.io/badge/Argon2id-0d1117?style=flat-square&logoColor=FF5C8A" alt="Argon2id">
+<img src="https://img.shields.io/badge/X25519-0d1117?style=flat-square&logoColor=FF5C8A" alt="X25519">
+<img src="https://img.shields.io/badge/XChaCha20--Poly1305-0d1117?style=flat-square&logoColor=FF5C8A" alt="XChaCha20-Poly1305">
+<img src="https://img.shields.io/badge/WebCrypto-0d1117?style=flat-square&logoColor=FF5C8A" alt="WebCrypto">
+</td>
+</tr>
+<tr>
+<td align="right" valign="middle"><b>🗡 Offensive security</b></td>
+<td valign="middle">
+<img src="https://img.shields.io/badge/Kali_Linux-0d1117?style=flat-square&logo=kalilinux&logoColor=FF5C8A" alt="Kali Linux">
+<img src="https://img.shields.io/badge/Metasploit-0d1117?style=flat-square&logo=metasploit&logoColor=FF5C8A" alt="Metasploit">
+<img src="https://img.shields.io/badge/Wireshark-0d1117?style=flat-square&logo=wireshark&logoColor=FF5C8A" alt="Wireshark">
+<img src="https://img.shields.io/badge/Nmap-0d1117?style=flat-square&logoColor=FF5C8A" alt="Nmap">
+<img src="https://img.shields.io/badge/Active_Directory-0d1117?style=flat-square&logoColor=FF5C8A" alt="Active Directory">
+</td>
+</tr>
+<tr>
+<td align="right" valign="middle"><b>🚀 DevSecOps & infra</b></td>
+<td valign="middle">
+<img src="https://img.shields.io/badge/GitHub_Actions-0d1117?style=flat-square&logo=githubactions&logoColor=FF5C8A" alt="GitHub Actions">
+<img src="https://img.shields.io/badge/GitLab_CI-0d1117?style=flat-square&logo=gitlab&logoColor=FF5C8A" alt="GitLab CI/CD">
+<img src="https://img.shields.io/badge/Dependabot-0d1117?style=flat-square&logo=dependabot&logoColor=FF5C8A" alt="Dependabot">
+<img src="https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=FF5C8A" alt="Docker">
+<img src="https://img.shields.io/badge/Nginx-0d1117?style=flat-square&logo=nginx&logoColor=FF5C8A" alt="Nginx">
+<img src="https://img.shields.io/badge/Postfix-0d1117?style=flat-square&logoColor=FF5C8A" alt="Postfix">
+<img src="https://img.shields.io/badge/Linux-0d1117?style=flat-square&logo=linux&logoColor=FF5C8A" alt="Linux">
+<img src="https://img.shields.io/badge/Bash-0d1117?style=flat-square&logo=gnubash&logoColor=FF5C8A" alt="Bash">
+<img src="https://img.shields.io/badge/Let's_Encrypt-0d1117?style=flat-square&logo=letsencrypt&logoColor=FF5C8A" alt="Let's Encrypt">
+</td>
+</tr>
+<tr>
+<td align="right" valign="middle"><b>💻 Backend & frontend</b></td>
+<td valign="middle">
+<img src="https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=FF5C8A" alt="TypeScript">
+<img src="https://img.shields.io/badge/React-0d1117?style=flat-square&logo=react&logoColor=FF5C8A" alt="React">
+<img src="https://img.shields.io/badge/Next.js-0d1117?style=flat-square&logo=nextdotjs&logoColor=FF5C8A" alt="Next.js">
+<img src="https://img.shields.io/badge/NestJS-0d1117?style=flat-square&logo=nestjs&logoColor=FF5C8A" alt="NestJS">
+<img src="https://img.shields.io/badge/Node.js-0d1117?style=flat-square&logo=nodedotjs&logoColor=FF5C8A" alt="Node.js">
+<img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=FF5C8A" alt="PostgreSQL">
+<img src="https://img.shields.io/badge/Prisma-0d1117?style=flat-square&logo=prisma&logoColor=FF5C8A" alt="Prisma">
+<img src="https://img.shields.io/badge/Zod-0d1117?style=flat-square&logo=zod&logoColor=FF5C8A" alt="Zod">
+<img src="https://img.shields.io/badge/Tailwind-0d1117?style=flat-square&logo=tailwindcss&logoColor=FF5C8A" alt="Tailwind CSS">
+<img src="https://img.shields.io/badge/MDX-0d1117?style=flat-square&logo=mdx&logoColor=FF5C8A" alt="MDX">
+<img src="https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=FF5C8A" alt="Python">
+<img src="https://img.shields.io/badge/Rust-0d1117?style=flat-square&logo=rust&logoColor=FF5C8A" alt="Rust">
+</td>
+</tr>
+<tr>
+<td align="right" valign="middle"><b>🧪 Testing & quality</b></td>
+<td valign="middle">
+<img src="https://img.shields.io/badge/Vitest-0d1117?style=flat-square&logo=vitest&logoColor=FF5C8A" alt="Vitest">
+<img src="https://img.shields.io/badge/Playwright-0d1117?style=flat-square&logo=playwright&logoColor=FF5C8A" alt="Playwright">
+<img src="https://img.shields.io/badge/axe-0d1117?style=flat-square&logoColor=FF5C8A" alt="axe">
+<img src="https://img.shields.io/badge/ESLint-0d1117?style=flat-square&logo=eslint&logoColor=FF5C8A" alt="ESLint">
+<img src="https://img.shields.io/badge/Biome-0d1117?style=flat-square&logo=biome&logoColor=FF5C8A" alt="Biome">
+<img src="https://img.shields.io/badge/oxlint-0d1117?style=flat-square&logoColor=FF5C8A" alt="oxlint">
+</td>
+</tr>
+</table>
 
 ---
 
