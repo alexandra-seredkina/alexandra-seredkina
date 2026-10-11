@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/alexandra-seredkina/alexandra-seredkina/main/assets/banner.jpeg" alt="Cute anime illustration: a red-haired girl with a laptop and a black cat on a cozy rooftop in a pastel neon city" width="100%">
+<img src="https://raw.githubusercontent.com/alexandra-seredkina/alexandra-seredkina/main/assets/banner.webp" alt="Cute anime illustration: a red-haired girl with a laptop and a black cat on a cozy rooftop in a pastel neon city" width="100%">
 
 # Aleksandra Seredkina
 
@@ -35,7 +35,7 @@ I understand the code and the architecture, not just the exploits.
 </td>
 <td width="260" valign="middle">
 
-<img src="https://raw.githubusercontent.com/alexandra-seredkina/alexandra-seredkina/main/assets/about.jpeg" alt="Portrait of a cute red-haired anime girl with a small glowing shield in her palm and a black cat on her shoulder" width="240">
+<img src="https://raw.githubusercontent.com/alexandra-seredkina/alexandra-seredkina/main/assets/about.webp" alt="Portrait of a cute red-haired anime girl with a small glowing shield in her palm and a black cat on her shoulder" width="240">
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ I understand the code and the architecture, not just the exploits.
 <tr>
 <td width="240" valign="top">
 
-<img src="https://raw.githubusercontent.com/alexandra-seredkina/alexandra-seredkina/main/assets/projects.jpeg" alt="The character next to a floating locked envelope and a glowing server rack with her black cat lying on top" width="220">
+<img src="https://raw.githubusercontent.com/alexandra-seredkina/alexandra-seredkina/main/assets/projects.webp" alt="The character next to a floating locked envelope and a glowing server rack with her black cat lying on top" width="220">
 
 </td>
 <td valign="top">
@@ -95,7 +95,7 @@ A user-space TCP/IP stack in Rust on top of a TUN device, to see how the network
 </td>
 <td width="33%" valign="middle">
 
-<img src="https://raw.githubusercontent.com/alexandra-seredkina/alexandra-seredkina/main/assets/ctfs.jpeg" alt="The character at her desk with glowing monitors, a sleeping black cat in headphones and a hologram flag with a checkmark" width="240">
+<img src="https://raw.githubusercontent.com/alexandra-seredkina/alexandra-seredkina/main/assets/ctfs.webp" alt="The character at her desk with glowing monitors, a sleeping black cat in headphones and a hologram flag with a checkmark" width="240">
 
 </td>
 <td width="33%" valign="middle">
@@ -196,6 +196,6 @@ A user-space TCP/IP stack in Rust on top of a TUN device, to see how the network
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/alexandra-seredkina/alexandra-seredkina/main/assets/footer.jpeg" alt="Sunrise over the neon city: the character waves from a rooftop with her black cat in her lap" width="100%">
+<img src="https://raw.githubusercontent.com/alexandra-seredkina/alexandra-seredkina/main/assets/footer.webp" alt="Sunrise over the neon city: the character waves from a rooftop with her black cat in her lap" width="100%">
 
 </div>
