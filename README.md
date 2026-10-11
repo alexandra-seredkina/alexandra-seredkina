@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/alexandra-seredkina/alexandra-seredkina/main/assets/banner.jpeg" alt="Cute anime illustration: a red-haired girl with a laptop and a black cat on a cozy rooftop in a pastel neon city" height="220">
+<img src="https://raw.githubusercontent.com/alexandra-seredkina/alexandra-seredkina/main/assets/banner.jpeg" alt="Cute anime illustration: a red-haired girl with a laptop and a black cat on a cozy rooftop in a pastel neon city" width="100%">
 
 # Aleksandra Seredkina
 
@@ -85,11 +85,23 @@ A user-space TCP/IP stack in Rust (TUN/TAP, IP, ICMP, TCP), written by hand to u
 
 ---
 
+## 🐾 TryHackMe & Code
+
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="middle">
 
-## 📊 Code
+Hands-on practice almost every day: web exploitation, Active Directory, privilege escalation, and fresh CVE rooms.
+
+<a href="https://tryhackme.com/p/Meowness"><img src="https://tryhackme-badges.s3.amazonaws.com/Meowness.png" alt="TryHackMe profile badge" height="120"></a>
+
+</td>
+<td width="33%" valign="middle">
+
+<img src="https://raw.githubusercontent.com/alexandra-seredkina/alexandra-seredkina/main/assets/ctfs.jpeg" alt="The character at her desk with glowing monitors, a sleeping black cat in headphones and a hologram flag with a checkmark" width="240">
+
+</td>
+<td width="33%" valign="middle">
 
 <div align="center">
 
@@ -98,11 +110,23 @@ A user-space TCP/IP stack in Rust (TUN/TAP, IP, ICMP, TCP), written by hand to u
 </div>
 
 </td>
-<td width="50%" valign="top">
+</tr>
+</table>
+
+---
 
 ## ⚙️ Stack
 
-**🔐 Application security**<br>
+<div align="center">
+
+*the tools I break things with, and the ones I build them with*
+
+</div>
+
+<table>
+<tr>
+<td align="right" valign="middle" width="200"><b>🔐 Application security</b></td>
+<td valign="middle">
 <img src="https://img.shields.io/badge/OWASP_Top_10-0d1117?style=flat-square&logo=owasp&logoColor=FF5C8A" alt="OWASP Top 10">
 <img src="https://img.shields.io/badge/Burp_Suite-0d1117?style=flat-square&logo=burpsuite&logoColor=FF5C8A" alt="Burp Suite">
 <img src="https://img.shields.io/badge/Semgrep-0d1117?style=flat-square&logo=semgrep&logoColor=FF5C8A" alt="Semgrep">
@@ -111,23 +135,32 @@ A user-space TCP/IP stack in Rust (TUN/TAP, IP, ICMP, TCP), written by hand to u
 <img src="https://img.shields.io/badge/JWT-0d1117?style=flat-square&logo=jsonwebtokens&logoColor=FF5C8A" alt="JWT">
 <img src="https://img.shields.io/badge/OAuth-0d1117?style=flat-square&logoColor=FF5C8A" alt="OAuth">
 <img src="https://img.shields.io/badge/Postman-0d1117?style=flat-square&logo=postman&logoColor=FF5C8A" alt="Postman">
-
-**🗡 Offensive security**<br>
+</td>
+</tr>
+<tr>
+<td align="right" valign="middle"><b>🗡 Offensive security</b></td>
+<td valign="middle">
 <img src="https://img.shields.io/badge/Kali_Linux-0d1117?style=flat-square&logo=kalilinux&logoColor=FF5C8A" alt="Kali Linux">
 <img src="https://img.shields.io/badge/Metasploit-0d1117?style=flat-square&logo=metasploit&logoColor=FF5C8A" alt="Metasploit">
 <img src="https://img.shields.io/badge/Wireshark-0d1117?style=flat-square&logo=wireshark&logoColor=FF5C8A" alt="Wireshark">
 <img src="https://img.shields.io/badge/Nmap-0d1117?style=flat-square&logoColor=FF5C8A" alt="Nmap">
 <img src="https://img.shields.io/badge/Active_Directory-0d1117?style=flat-square&logoColor=FF5C8A" alt="Active Directory">
-
-**🚀 DevSecOps & infrastructure**<br>
+</td>
+</tr>
+<tr>
+<td align="right" valign="middle"><b>🚀 DevSecOps & infra</b></td>
+<td valign="middle">
 <img src="https://img.shields.io/badge/GitLab_CI-0d1117?style=flat-square&logo=gitlab&logoColor=FF5C8A" alt="GitLab CI/CD">
 <img src="https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=FF5C8A" alt="Docker">
 <img src="https://img.shields.io/badge/Nginx-0d1117?style=flat-square&logo=nginx&logoColor=FF5C8A" alt="Nginx">
 <img src="https://img.shields.io/badge/Linux-0d1117?style=flat-square&logo=linux&logoColor=FF5C8A" alt="Linux">
 <img src="https://img.shields.io/badge/Bash-0d1117?style=flat-square&logo=gnubash&logoColor=FF5C8A" alt="Bash">
 <img src="https://img.shields.io/badge/Let's_Encrypt-0d1117?style=flat-square&logo=letsencrypt&logoColor=FF5C8A" alt="Let's Encrypt">
-
-**💻 Software engineering**<br>
+</td>
+</tr>
+<tr>
+<td align="right" valign="middle"><b>💻 Software engineering</b></td>
+<td valign="middle">
 <img src="https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=FF5C8A" alt="TypeScript">
 <img src="https://img.shields.io/badge/React-0d1117?style=flat-square&logo=react&logoColor=FF5C8A" alt="React">
 <img src="https://img.shields.io/badge/Next.js-0d1117?style=flat-square&logo=nextdotjs&logoColor=FF5C8A" alt="Next.js">
@@ -136,28 +169,6 @@ A user-space TCP/IP stack in Rust (TUN/TAP, IP, ICMP, TCP), written by hand to u
 <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=FF5C8A" alt="PostgreSQL">
 <img src="https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=FF5C8A" alt="Python">
 <img src="https://img.shields.io/badge/Rust-0d1117?style=flat-square&logo=rust&logoColor=FF5C8A" alt="Rust">
-
-</td>
-</tr>
-</table>
-
----
-
-## 🐾 TryHackMe
-
-<table>
-<tr>
-<td valign="middle">
-
-Hands-on practice almost every day: web exploitation, Active Directory, privilege escalation, and fresh CVE rooms.
-
-<a href="https://tryhackme.com/p/Meowness"><img src="https://tryhackme-badges.s3.amazonaws.com/Meowness.png" alt="TryHackMe profile badge" height="120"></a>
-
-</td>
-<td width="260" valign="middle">
-
-<img src="https://raw.githubusercontent.com/alexandra-seredkina/alexandra-seredkina/main/assets/ctfs.jpeg" alt="The character at her desk with glowing monitors, a sleeping black cat in headphones and a hologram flag with a checkmark" width="240">
-
 </td>
 </tr>
 </table>
@@ -166,7 +177,7 @@ Hands-on practice almost every day: web exploitation, Active Directory, privileg
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/alexandra-seredkina/alexandra-seredkina/main/assets/footer.jpeg" alt="Sunrise over the neon city: the character waves from a rooftop with her black cat in her lap" height="180">
+<img src="https://raw.githubusercontent.com/alexandra-seredkina/alexandra-seredkina/main/assets/footer.jpeg" alt="Sunrise over the neon city: the character waves from a rooftop with her black cat in her lap" width="100%">
 
 *Think like an attacker. Build like a defender.*
 
