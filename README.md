@@ -71,7 +71,7 @@ Strict CSP with nonces, no cookies, no third-party scripts, and a trilingual MDX
 <img src="https://img.shields.io/badge/Tailwind-0d1117?style=flat-square&logo=tailwindcss&logoColor=FF5C8A" alt="Tailwind CSS">
 <img src="https://img.shields.io/badge/Playwright-0d1117?style=flat-square&logo=playwright&logoColor=FF5C8A" alt="Playwright">
 
-### 🦀 [My-Own-TCP-IP](https://github.com/alexandra-seredkina/My-Own-TCP-IP) — learning Rust and TCP/IP from zero
+### 🦀 [My-Own-TCP-IP](https://github.com/alexandra-seredkina/My-Own-TCP-IP) — Learning Rust on TCP/IP
 A user-space TCP/IP stack in Rust on top of a TUN device, to see how the network works under the hood. The changelog is a step-by-step diary: from the first `hello world` to working with `/dev/net/tun`.<br>
 <img src="https://img.shields.io/badge/Rust-0d1117?style=flat-square&logo=rust&logoColor=FF5C8A" alt="Rust">
 <img src="https://img.shields.io/badge/Linux-0d1117?style=flat-square&logo=linux&logoColor=FF5C8A" alt="Linux">
