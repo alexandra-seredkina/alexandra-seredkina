@@ -55,8 +55,7 @@ I understand the code and the architecture, not just the exploits.
 <td valign="top">
 
 ### 🔐 [ShadowBox](https://github.com/alexandra-seredkina/ShadowBox-Backend) — anonymous mail that cannot read your messages
-Sign up with a login and a password, no phone, no name. A separate address for every site, and every message is encrypted the moment it arrives. Keys live only in the browser; the server keeps ciphertext. Built threat-model-first, with phishing labels (SPF / DKIM / DMARC) on incoming mail.
-Crypto: X25519, XChaCha20-Poly1305, Argon2id (libsodium). Sessions in `__Host-` cookies, nonce-based CSP, rate limiting. Semgrep and dependency audit on every pull request.<br>
+Anonymous email with a separate address for every site and no phone number. Every message is encrypted the moment it arrives: the server keeps only ciphertext, and keys stay in the browser.<br>
 <img src="https://img.shields.io/badge/NestJS-0d1117?style=flat-square&logo=nestjs&logoColor=FF5C8A" alt="NestJS">
 <img src="https://img.shields.io/badge/Next.js-0d1117?style=flat-square&logo=nextdotjs&logoColor=FF5C8A" alt="Next.js">
 <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=FF5C8A" alt="PostgreSQL">
@@ -65,15 +64,15 @@ Crypto: X25519, XChaCha20-Poly1305, Argon2id (libsodium). Sessions in `__Host-` 
 <img src="https://img.shields.io/badge/libsodium-0d1117?style=flat-square&logoColor=FF5C8A" alt="libsodium"><br>
 [Backend](https://github.com/alexandra-seredkina/ShadowBox-Backend) · [Frontend](https://github.com/alexandra-seredkina/ShadowBox-Frontend)
 
-### 🌐 [Personal site](https://personal-site-omega-six-53.vercel.app/) — built as a security exercise
-Strict nonce-based CSP with `strict-dynamic`, HSTS preload, zero cookies, zero third-party scripts, a trilingual blog in MDX. CI runs Gitleaks, Semgrep, CodeQL, dependency review, and Playwright with axe for accessibility.<br>
+### 🌐 [Personal site](https://personal-site-omega-six-53.vercel.app/) — portfolio & blog, built as a security exercise
+Strict CSP with nonces, no cookies, no third-party scripts, and a trilingual MDX blog. CI runs Gitleaks, Semgrep and CodeQL.<br>
 <img src="https://img.shields.io/badge/Next.js-0d1117?style=flat-square&logo=nextdotjs&logoColor=FF5C8A" alt="Next.js">
 <img src="https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=FF5C8A" alt="TypeScript">
 <img src="https://img.shields.io/badge/Tailwind-0d1117?style=flat-square&logo=tailwindcss&logoColor=FF5C8A" alt="Tailwind CSS">
 <img src="https://img.shields.io/badge/Playwright-0d1117?style=flat-square&logo=playwright&logoColor=FF5C8A" alt="Playwright">
 
-### 🦀 [My-Own-TCP-IP](https://github.com/alexandra-seredkina/My-Own-TCP-IP) — a TCP/IP stack from scratch
-A user-space TCP/IP stack in Rust (TUN/TAP, IP, ICMP, TCP), written by hand to understand how the network works under the hood. Every step is documented in the changelog.<br>
+### 🦀 [My-Own-TCP-IP](https://github.com/alexandra-seredkina/My-Own-TCP-IP) — learning Rust and TCP/IP from zero
+A user-space TCP/IP stack in Rust on top of a TUN device, to see how the network works under the hood. The changelog is a step-by-step diary: from the first `hello world` to working with `/dev/net/tun`.<br>
 <img src="https://img.shields.io/badge/Rust-0d1117?style=flat-square&logo=rust&logoColor=FF5C8A" alt="Rust">
 <img src="https://img.shields.io/badge/Linux-0d1117?style=flat-square&logo=linux&logoColor=FF5C8A" alt="Linux">
 
@@ -90,8 +89,6 @@ A user-space TCP/IP stack in Rust (TUN/TAP, IP, ICMP, TCP), written by hand to u
 <table>
 <tr>
 <td width="33%" valign="middle">
-
-Hands-on practice almost every day: web exploitation, Active Directory, privilege escalation, and fresh CVE rooms.
 
 <a href="https://tryhackme.com/p/Meowness"><img src="https://tryhackme-badges.s3.amazonaws.com/Meowness.png" alt="TryHackMe profile badge" height="120"></a>
 
@@ -130,11 +127,21 @@ Hands-on practice almost every day: web exploitation, Active Directory, privileg
 <img src="https://img.shields.io/badge/OWASP_Top_10-0d1117?style=flat-square&logo=owasp&logoColor=FF5C8A" alt="OWASP Top 10">
 <img src="https://img.shields.io/badge/Burp_Suite-0d1117?style=flat-square&logo=burpsuite&logoColor=FF5C8A" alt="Burp Suite">
 <img src="https://img.shields.io/badge/Semgrep-0d1117?style=flat-square&logo=semgrep&logoColor=FF5C8A" alt="Semgrep">
-<img src="https://img.shields.io/badge/Secret_detection-0d1117?style=flat-square&logoColor=FF5C8A" alt="Secret detection">
-<img src="https://img.shields.io/badge/SCA-0d1117?style=flat-square&logoColor=FF5C8A" alt="SCA">
+<img src="https://img.shields.io/badge/CodeQL-0d1117?style=flat-square&logo=github&logoColor=FF5C8A" alt="CodeQL">
+<img src="https://img.shields.io/badge/Gitleaks-0d1117?style=flat-square&logoColor=FF5C8A" alt="Gitleaks">
 <img src="https://img.shields.io/badge/JWT-0d1117?style=flat-square&logo=jsonwebtokens&logoColor=FF5C8A" alt="JWT">
 <img src="https://img.shields.io/badge/OAuth-0d1117?style=flat-square&logoColor=FF5C8A" alt="OAuth">
 <img src="https://img.shields.io/badge/Postman-0d1117?style=flat-square&logo=postman&logoColor=FF5C8A" alt="Postman">
+</td>
+</tr>
+<tr>
+<td align="right" valign="middle"><b>🔏 Cryptography</b></td>
+<td valign="middle">
+<img src="https://img.shields.io/badge/libsodium-0d1117?style=flat-square&logoColor=FF5C8A" alt="libsodium">
+<img src="https://img.shields.io/badge/Argon2id-0d1117?style=flat-square&logoColor=FF5C8A" alt="Argon2id">
+<img src="https://img.shields.io/badge/X25519-0d1117?style=flat-square&logoColor=FF5C8A" alt="X25519">
+<img src="https://img.shields.io/badge/XChaCha20--Poly1305-0d1117?style=flat-square&logoColor=FF5C8A" alt="XChaCha20-Poly1305">
+<img src="https://img.shields.io/badge/WebCrypto-0d1117?style=flat-square&logoColor=FF5C8A" alt="WebCrypto">
 </td>
 </tr>
 <tr>
@@ -150,16 +157,19 @@ Hands-on practice almost every day: web exploitation, Active Directory, privileg
 <tr>
 <td align="right" valign="middle"><b>🚀 DevSecOps & infra</b></td>
 <td valign="middle">
+<img src="https://img.shields.io/badge/GitHub_Actions-0d1117?style=flat-square&logo=githubactions&logoColor=FF5C8A" alt="GitHub Actions">
 <img src="https://img.shields.io/badge/GitLab_CI-0d1117?style=flat-square&logo=gitlab&logoColor=FF5C8A" alt="GitLab CI/CD">
+<img src="https://img.shields.io/badge/Dependabot-0d1117?style=flat-square&logo=dependabot&logoColor=FF5C8A" alt="Dependabot">
 <img src="https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=FF5C8A" alt="Docker">
 <img src="https://img.shields.io/badge/Nginx-0d1117?style=flat-square&logo=nginx&logoColor=FF5C8A" alt="Nginx">
+<img src="https://img.shields.io/badge/Postfix-0d1117?style=flat-square&logoColor=FF5C8A" alt="Postfix">
 <img src="https://img.shields.io/badge/Linux-0d1117?style=flat-square&logo=linux&logoColor=FF5C8A" alt="Linux">
 <img src="https://img.shields.io/badge/Bash-0d1117?style=flat-square&logo=gnubash&logoColor=FF5C8A" alt="Bash">
 <img src="https://img.shields.io/badge/Let's_Encrypt-0d1117?style=flat-square&logo=letsencrypt&logoColor=FF5C8A" alt="Let's Encrypt">
 </td>
 </tr>
 <tr>
-<td align="right" valign="middle"><b>💻 Software engineering</b></td>
+<td align="right" valign="middle"><b>💻 Backend & frontend</b></td>
 <td valign="middle">
 <img src="https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=FF5C8A" alt="TypeScript">
 <img src="https://img.shields.io/badge/React-0d1117?style=flat-square&logo=react&logoColor=FF5C8A" alt="React">
@@ -167,8 +177,23 @@ Hands-on practice almost every day: web exploitation, Active Directory, privileg
 <img src="https://img.shields.io/badge/NestJS-0d1117?style=flat-square&logo=nestjs&logoColor=FF5C8A" alt="NestJS">
 <img src="https://img.shields.io/badge/Node.js-0d1117?style=flat-square&logo=nodedotjs&logoColor=FF5C8A" alt="Node.js">
 <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=FF5C8A" alt="PostgreSQL">
+<img src="https://img.shields.io/badge/Prisma-0d1117?style=flat-square&logo=prisma&logoColor=FF5C8A" alt="Prisma">
+<img src="https://img.shields.io/badge/Zod-0d1117?style=flat-square&logo=zod&logoColor=FF5C8A" alt="Zod">
+<img src="https://img.shields.io/badge/Tailwind-0d1117?style=flat-square&logo=tailwindcss&logoColor=FF5C8A" alt="Tailwind CSS">
+<img src="https://img.shields.io/badge/MDX-0d1117?style=flat-square&logo=mdx&logoColor=FF5C8A" alt="MDX">
 <img src="https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=FF5C8A" alt="Python">
 <img src="https://img.shields.io/badge/Rust-0d1117?style=flat-square&logo=rust&logoColor=FF5C8A" alt="Rust">
+</td>
+</tr>
+<tr>
+<td align="right" valign="middle"><b>🧪 Testing & quality</b></td>
+<td valign="middle">
+<img src="https://img.shields.io/badge/Vitest-0d1117?style=flat-square&logo=vitest&logoColor=FF5C8A" alt="Vitest">
+<img src="https://img.shields.io/badge/Playwright-0d1117?style=flat-square&logo=playwright&logoColor=FF5C8A" alt="Playwright">
+<img src="https://img.shields.io/badge/axe-0d1117?style=flat-square&logoColor=FF5C8A" alt="axe">
+<img src="https://img.shields.io/badge/ESLint-0d1117?style=flat-square&logo=eslint&logoColor=FF5C8A" alt="ESLint">
+<img src="https://img.shields.io/badge/Biome-0d1117?style=flat-square&logo=biome&logoColor=FF5C8A" alt="Biome">
+<img src="https://img.shields.io/badge/oxlint-0d1117?style=flat-square&logoColor=FF5C8A" alt="oxlint">
 </td>
 </tr>
 </table>
